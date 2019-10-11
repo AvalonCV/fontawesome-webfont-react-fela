@@ -1,0 +1,43 @@
+{
+	"name": "fontawesome-webfont-react-fela",
+	"version": "0.0.1",
+	"description": "FontAwesome icons with webfont usage - for react with fela (css in js)",
+	"main": "dist/index.js",
+	"scripts": {
+		"generate": "ts-node src/generate.ts",
+		"build": "tsc --declaration"
+	},
+	"author": "ME",
+	"keywords": [
+		"font",
+		"awesome",
+		"icon",
+		"react",
+		"fela",
+		"webfont"
+	],
+	"files": [
+		"/dist/index.js",
+		"/dist/index.d.ts",
+		"/dist/FontAwesomeIcon.js",
+		"/dist/FontAwesomeIcon.d.ts",
+		"/dist/icon/*"
+	],
+	"license": "ISC",
+	"devDependencies": {
+		"@types/node": "^12.7.12",
+		"@types/react": "^16.9.5",
+		"camelcase": "^5.3.1",
+		"memfs": "^2.15.5",
+		"ts-loader": "^6.2.0",
+		"ts-node": "^8.4.1",
+		"tslint": "^5.20.0",
+		"typescript": "^3.6.4"
+	},
+	"dependencies": {},
+	"peerDependencies": {
+		"fela": "^10.7.0",
+		"react": "^16.10.2",
+		"react-fela": "^10.7.0"
+	}
+}
